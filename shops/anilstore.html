@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="../style/panel.css">
+	
+    
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+  <link rel="icon" href="../images/icon.png" type="image/png" sizes="20*20">
+  <link href="../style/new_nav.css" rel="stylesheet">
+  <link rel="stylesheet" href="../style/bootstrap.min.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="../script/jquery.min.js"></script>
+  <script src="../script/js/bootstrap.min.js"></script>
+  <link href="../style/bootstrapTheme.css" rel="stylesheet">
+  <link rel="stylesheet" href="../style/w3.css">
+  <link href="../style/nav.css" rel="stylesheet">
+  <link href="../style/index.css" rel="stylesheet" media="all and (min-width: 0px) and (max-width: 1440px)"/>
+    <!-- Owl Carousel Assets -->
+  <link href="../style/owl.carousel.css" rel="stylesheet">
+  <link href="../style/owl.theme.css" rel="stylesheet">
+  <link href="../style/prettify.css" rel="stylesheet">
+    <!--Owl Carousal ends here-->
+  <link rel="stylesheet" href = "../style/demo.css" media="screen, projection"/></style>
+  <link rel="stylesheet" href="../style/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Courgette|Kaushan+Script|Permanent+Marker" rel="stylesheet">
+  <link href='../style/ionicons.min.css' rel='stylesheet' type='text/css'>
+  <link href='http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css' rel='stylesheet' type='text/css'>
+
+
+	<style type="text/css">
+		#shop_name_anil{
+			font-family: 'Permanent Marker', cursive;
+			font-size: 38px;
+			letter-spacing: 2px;
+			padding-top: 25px;
+		}
+	</style>
+</head>
+
+<!--Changing the number in the column_# class changes the number of columns-->
+<body>
+
+
+	<div id="ham" onclick="btn_search_text0_out()" onclick="btn_text_new_out()" onmouseover='document.getElementById("shops_div").style.display = "none" ; document.getElementById("markets_div").style.display = "none" ; document.getElementById("malls_div").style.display = "none" ; document.getElementById("sales_div").style.display = "none" '><i class="icon ion-android-menu"></i></div>
+
+<a id="logo1" onmouseover='document.getElementById("shops_div").style.display = "none" ; document.getElementById("markets_div").style.display = "none" ; document.getElementById("malls_div").style.display = "none" ; document.getElementById("sales_div").style.display = "none" ' class="navbar-brand" href="../index.html"><img src="../images/icon.png" width="50px" height="50px"></a>
+
+
+
+<a id="logo2" onmouseover='document.getElementById("shops_div").style.display = "none" ; document.getElementById("markets_div").style.display = "none" ; document.getElementById("malls_div").style.display = "none" ; document.getElementById("sales_div").style.display = "none" '  href="../index.html"><img src="../images/bluelogo1.png" width="95px" height= "75px"></a>  
+
+
+
+<input type= "text"  onmouseover='document.getElementById("shops_div").style.display = "none" ; document.getElementById("markets_div").style.display = "none" ; document.getElementById("malls_div").style.display = "none" ; document.getElementById("sales_div").style.display = "none" ' id="btn_search_text1" class="form-control" name="x" placeholder="Search" style="display: none;">
+               </div> 
+
+               <a href="#"><span id="btn_search1" onclick = "btn_search_text0_in()" onclick="btn_text_new_in()" onmouseover='document.getElementById("shops_div").style.display = "none" ; document.getElementById("markets_div").style.display = "none" ; document.getElementById("malls_div").style.display = "none" ; document.getElementById("sales_div").style.display = "none" ' class="glyphicon glyphicon-search"></span></a>
+
+
+<nav id="nav" class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a id="logo" onmouseover='document.getElementById("shops_div").style.display = "none" ; document.getElementById("markets_div").style.display = "none" ; document.getElementById("malls_div").style.display = "none" ; document.getElementById("sales_div").style.display = "none"; document.getElementById("new_nav").style.display = "inline" ' class="navbar-brand" href="../index.html"><img src="../images/bluelogo1.png" width="130px" height="110px"></a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li id="shops"><a onclick="btn_search_text0_out()" onclick="btn_text_new_out()" onmouseover='document.getElementById("shops_div").style.display = "block"  ; document.getElementById("markets_div").style.display = "none" ; document.getElementById("malls_div").style.display = "none" ; document.getElementById("sales_div").style.display = "none"; document.getElementById("new_nav").style.display = "none" ' href="#">Food</a></li>
+      <li id="markets"><a onclick="btn_search_text0_out()" onclick="btn_text_new_out()" onmouseover='document.getElementById("shops_div").style.display = "none"  ; document.getElementById("malls_div").style.display = "none" ; document.getElementById("markets_div").style.display = "block" ; document.getElementById("sales_div").style.display = "none"; document.getElementById("new_nav").style.display = "none" ' href="#">Clothing</a></li>
+      <li id="malls"><a onclick="btn_search_text0_out()"onclick="btn_text_new_out()" onmouseover='document.getElementById("shops_div").style.display = "none"  ; document.getElementById("markets_div").style.display = "none" ; document.getElementById("malls_div").style.display = "block" ; document.getElementById("sales_div").style.display = "none"; document.getElementById("new_nav").style.display = "none" ' href="#">About Us</a></li>
+      <li id="sales"><a onclick="btn_search_text0_out()" onclick="btn_text_new_out()" onmouseover='document.getElementById("shops_div").style.display = "none"  ; document.getElementById("markets_div").style.display = "none" ; document.getElementById("malls_div").style.display = "none" ; document.getElementById("sales_div").style.display = "block"; document.getElementById("new_nav").style.display = "none" ' href="#">Sales</a></li>
+      </ul>
+
+      <ul>
+               
+                <input type="text"  onfocus="btn_search_text_in()" onclick="btn_text_new_out()" onblur="btn_search_text_out()" onmouseover='document.getElementById("shops_div").style.display = "none" ; document.getElementById("markets_div").style.display = "none" ; document.getElementById("malls_div").style.display = "none" ; document.getElementById("sales_div").style.display = "none"; document.getElementById("new_nav").style.display = "none" ' id="btn_search_text" class="form-control" name="x" placeholder="Search item...">
+               </div> 
+                    <a href="#"><span id="btn_search" class="glyphicon glyphicon-search"></span></a>           
+    </ul>      
+    <ul id="nav_share_fb">
+    	<a href="https://www.facebook.com/Easy-Shop-310995099235013/?fref=ts"><img src="../images/fb1.png" width="50px" height="50px" alt="facebook"></a>  	
+    </ul>  
+    <ul id="nav_share_twitter">
+    	<a href="#"><img src="../images/twitter1.png" width="50px" height="50px" alt="twitter"></a>    	
+    </ul> 
+    <ul id="nav_share_insta">
+    	<a href="https://www.instagram.com/easyshop.co.in/"><img src="../images/insta1.png" width="50px" height="50px" alt="instagram"></a>    	
+    </ul>     
+    <ul id="nav_share_linkedin">
+    	<a href="#"><img src="../images/linkedin1.png" width="50px" height="50px" alt="linkedin"></a> 
+    </ul> 
+    <ul class="nav navbar-nav navbar-right">
+      <li><a onmouseover='document.getElementById("shops_div").style.display = "none" ; document.getElementById("markets_div").style.display = "none" ; document.getElementById("malls_div").style.display = "none" , btn_search_text0_out() , btn_text_new_out(); document.getElementById("sales_div").style.display = "none"; document.getElementById("new_nav").style.display = "none"; document.getElementById("new_nav").style.display = "none" ' onclick="document.getElementById('id01').style.display='block'" id="login" href="#"><span class="glyphicon glyphicon-log-in"></span> Log in</a></li>
+
+    </ul>
+  </div>
+</nav>
+
+
+	<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="action_page.php">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <br><br>
+      <input type="email" id="login_email" placeholder="Enter Email" name="email"><br>
+
+
+      <input type="text" id="login_uname" placeholder="Enter Username" name="uname" ><br>
+
+      <input type="password" id="login_psw" placeholder="Enter Password" name="psw" ><br>
+
+      <input type="text" id="login_ph"  placeholder="Enter Phone no." name="ph"><br>
+      <div class="row">
+      <div class="col-sm-12">
+      <button type="submit" class="btn btn-default" id="login_signup"><h5>Sign Up</h5></button><br><br>
+      </div>
+      <div class="col-sm-12">
+      <Center>Already have an account..?</Center><br>
+      <button class="btn btn-default" id="login_signup"><h5>Log in</h5></button>
+      </form>
+      </div>
+
+    </div>
+         </div>
+
+</div>
+  </div>
+
+<div id="shops_div">
+<div class="row">
+<div class="col-md-3">
+<center><a href="../shops/pizzeria.html"><img id="shops_div_img1" src="../images/pizzeria/creamy_white_pasta.jpg" width="50%" height="50%"><br><h3 style="font-family: 'Courgette', cursive;" >Pizzeria</h3></a></center>
+</div>
+<div class="col-md-3">
+<center><a href="../shops/makhan.html"><img id="shops_div_img2" src="../images/makhan/Butter chicken.jpg" width="50%" height="50%"><br><h3 style="font-family: 'Courgette', cursive;" >Makhan Fish</h3></a></center>
+</div>
+<div class="col-md-3">
+<center><a href="../shops/hoppers.html"><img id="shops_div_img3" src="../images/hoppers/soya_paprika_burger.jpg" width="50%" height="60%"><br><h3 style="font-family: 'Courgette', cursive;" >Hoppers</h3></a></center>
+</div>
+<div class="col-md-3">
+<center><a href="../shops/bakers.html"><img id="shops_div_img4" src="../images/bakers/choco_cream_roll.jpg" width="50%" height="50%"><br><h3 style="font-family: 'Courgette', cursive;" >The Bakers</h3></a></center>
+</div>
+</div>
+</div>
+<div id="markets_div">
+<div class="row">
+<div class="col-md-3">
+<center><a href="../shops/gullu.html"><img id="markets_div_img1" src="../images/gullu/Anarkali1 suit.jpg" width="50%" height="50%"><br><h3 style="font-family: 'Courgette', cursive;" >Gullu Exclusive</h3></a></center>
+</div>
+<div class="col-md-3">
+<center><a href="../shops/anilstore.html"><img id="markets_div_img2" src="../images/anilstore/girl2.jpg" width="50%" height="50%"><br><h3 style="font-family: 'Courgette', cursive;" >Anil Store</h3></a></center>
+</div>
+<div class="col-md-3">
+<center><a href="../shops/dcmenzone.html"><img id="markets_div_img3" src="../images/dcmenzone/CoatSuits-1001A.jpg" width="50%" height="50%"><br><h3 style="font-family: 'Courgette', cursive;" >DC Men Zone</h3></a></center>
+</div>
+<div class="col-md-3">
+<center><a href="../shops/anjali.html"><img id="markets_div_img4" src="../images/anjali/lehanga.jpg" width="35%" height="20%"><br><h3 style="font-family: 'Courgette', cursive;" >Anjali</h3></a></center>
+</div>
+</div>
+</div>
+<div id="malls_div">
+<div class="row">
+<div class="col-md-12">
+<!-- no data -->
+</div>
+</div>
+</div>
+
+
+<div id="rest" onclick="btn_search_text0_out()" onclick="btn_text_new_out()" onmouseover='document.getElementById("shops_div").style.display = "none" ; document.getElementById("malls_div").style.display = "none" ; document.getElementById("sales_div").style.display = "none" ; document.getElementById("super_markets_div").style.display = "none"; document.getElementById("new_nav").style.display = "none" '>
+
+
+
+<div class="container-fluid" id="padding_top" onclick="btn_search_text0_out()" onclick="btn_text_new_out()" onmouseover='document.getElementById("shops_div").style.display = "none" ; document.getElementById("markets_div").style.display = "none" ; document.getElementById("malls_div").style.display = "none"  ; document.getElementById("sales_div").style.display = "none"; document.getElementById("new_nav").style.display = "none" '>
+
+
+	<center><div id="shop_name_anil">The Anil Store</div></center>
+	<div id="wrap">
+	<div id="columns" class="columns_4">
+  <figure>
+  <img src="../images/anilstore/baby1.jpg">
+	<figcaption>Anarkali Suit</figcaption>
+    <span class="price">text</span>
+    <a class="button" href="../images/anilstore/baby1.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+	</figure>
+	
+	<figure>
+	<img src="../images/anilstore/baby2.jpg">
+	<figcaption>Green and Black Flowers</figcaption>
+    <span class="price">text</span>
+    <a class="button" href="../images/anilstore/baby2.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+	</figure>
+	
+  <figure>
+	<img src="../images/anilstore/baby3.jpg">
+	<figcaption>Black Dots</figcaption>
+    <span class="price">text</span>
+    <a class="button" href="../images/anilstore/baby3.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+	</figure>
+  
+	<figure>
+	<img src="../images/anilstore/baby4.jpg">
+	<figcaption>Red Flowy</figcaption>
+    <span class="price">text</span>
+    <a class="button" href="../images/anilstore/baby4.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+	</figure>
+	
+   <figure>
+	 <img src="../images/anilstore/baby5.jpg">
+	<figcaption>Yellow Button-Up</figcaption>
+    <span class="price">text</span>
+    <a class="button" href="../images/anilstore/baby5.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+	</figure>
+	
+   <figure>
+	 <img src="../images/anilstore/boy1.jpg">
+	<figcaption>Put a Bird On It</figcaption>
+     <span class="price">text</span>
+     <a class="button" href="../images/anilstore/boy1.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+	</figure>
+  
+	<figure>
+	<img src="../images/anilstore/boy2.jpg">
+	<figcaption>Polka Dots</figcaption>
+    <span class="price">text</span>
+    <a class="button" href="../images/anilstore/boy2.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+	</figure>	
+  
+   <figure>
+	<img src="../images/anilstore/boy3.jpg">
+	<figcaption>Blue Spots</figcaption>
+     <span class="price">text</span>
+     <a class="button" href="../images/anilstore/boy3.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+	</figure>
+  
+    <figure>
+	<img src="../images/anilstore/boy4.jpg">
+    <figcaption>Pink Dots</figcaption>
+      <span class="price">text</span>
+      <a class="button" href="../images/anilstore/boy4.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+	</figure>
+<figure>
+	<img src="../images/anilstore/boy5.jpg">
+    <figcaption>Pink Dots</figcaption>
+      <span class="price">text</span>
+      <a class="button" href="../images/anilstore/boy5.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+	</figure>
+<figure>
+	<img src="../images/anilstore/girl1.jpg">
+    <figcaption>Pink Dots</figcaption>
+      <span class="price">text</span>
+      <a class="button" href="../images/anilstore/girl1.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+	</figure>
+<figure>
+	<img src="../images/anilstore/girl2.jpg">
+    <figcaption>Pink Dots</figcaption>
+      <span class="price">text</span>
+      <a class="button" href="../images/anilstore/girl2.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+	</figure>	
+	<figure>
+	<img src="../images/anilstore/girl3.jpg">
+    <figcaption>Pink Dots</figcaption>
+      <span class="price">text</span>
+      <a class="button" href="../images/anilstore/girl3.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+	</figure>	
+	
+</div></div>
+
+
+<footer class="container-fluid text-center" id="footer">
+<div class="row">
+  <div class="col-sm-12">
+    <div id="get_latest_text">Get latest Offers everyday!</div>
+  </div>
+</div>
+  <div class="row">
+    <div class="col-sm-2">
+    </div>
+    <div class="col-sm-8">
+      <div id="foter_subscribe">
+        <input type="text" id="text_subscribe" class="form-control" name="latest" placeholder="Enter your email address">
+      </div> 
+     </div>
+     <div class="col-sm-2">
+     </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-5">
+    </div>
+    <div class="col-sm-2">
+      <div id="subscribe">
+        <button id="btn_subscribe"> Subscribe now! </button> 
+      </div>
+    </div>
+  </div><br>          
+  <div class="row">
+  <div class="col-sm-3">
+    <h4>About Us</h4>
+    <h5><a href="#">Business Segments</a></h5>
+    <h5><a href="#">Overview</a></h5>    
+    <h5><a href="#">Media</a></h5>
+
+
+  </div>
+  <div class="col-sm-3">
+    <h4>Help Center</h4>
+    <h5><a href="#">Contact Us</a></h5>
+    <h5><a href="#">Feedback</a></h5>
+    <h5><a href="#">FAQ's</a></h5>
+
+
+
+  </div>
+  <div class="col-sm-3">
+    <h4>Contact easyshop</h4>
+    <h5><span class="glyphicon glyphicon-phone-alt"> 1800-1234567</span></h5>
+    <h5><CENTER>(9am-5pm)</CENTER></h5>
+    <h5>easyshop72@gmail.com</h5>
+
+
+    </div>
+    <div class="col-sm-3">
+    <Center><a href="https://www.facebook.com/Easy-Shop-310995099235013/?fref=ts"><img id="fb_share_footer" src="../images/fb.png" width="40px" height="40px" alt="facebook"></Center></a>
+    <Center><a href="#"><img id="twitter_share_footer" src="../images/twitter.png" width="40px" height="40px" alt="twitter"></Center></a>
+    <Center><a href="https://www.instagram.com/easyshop.co.in/"><img id="insta_share_footer" src="../images/insta.png" width="40px" height="40px" alt="instagram"></Center></a>
+    <Center><a href="#"><img id="linkedin_share_footer" src="../images/linkedin.png" width="40px" height="40px" alt="linkedin"></Center></a>
+    </div>
+    </div>
+
+
+    <div id="footer_share_mobile">
+    <a href="https://www.facebook.com/Easy-Shop-310995099235013/?fref=ts"><img id="fb_share_footer1" src="../images/fb.png" width="40px" height="40px" alt="facebook"></a>
+    <a href="#"><img id="twitter_share_footer1" src="../images/twitter.png" width="40px" height="40px" alt="twitter"></a>
+    <a href="https://www.instagram.com/easyshop.co.in/"><img id="insta_share_footer1" src="../images/insta.png" width="40px" height="40px" alt="instagram"></Center></a>
+    <a href="#"><img id="linkedin_share_footer1" src="../images/linkedin.png" width="40px" height="40px" alt="linkedin"></a>
+    </div>
+    <Center><hr id="footer_hr"></Center>
+
+
+  <div id = "footer_last">© Copyright 2016 Easyshop.All rights reserved.</div><br>
+</footer>
+</div>
+
+</div>
+</div>
+  <script src="../script/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <script src="../script/slick.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+    $("#myBtn").click(function(){
+        $("#myModal").modal();
+    });
+});
+$(".toggle").on("click", function () {
+    $(".container").toggleClass("microsoft");
+});
+</script>
+	<script src="script/jquery-1.9.1.min.js"></script> 
+    <script src="script/new_nav.js"></script>
+    <script src="script/jquery.ui.min.js"></script>
+    <script src="script/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      $('#ham').click(function() {
+        $ ("#nav").slideToggle(250);     
+      })
+    </script>
+</body>
+</html>
